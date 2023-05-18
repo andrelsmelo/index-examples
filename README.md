@@ -2,212 +2,227 @@
 
 Este repositório contém exemplos de código "Hello World" em diferentes linguagens de programação. Cada linguagem tem seu próprio arquivo "index" com o código correspondente.
 
+## Dockerfile
+
+Execute o comando abaixo para buildar o Dockerfile com os interpretadores das linguagens:
+
+```bash
+    sudo docker build -t <nome-da-imagem> .
+```
+
+Execute o comando abaixo para poder acessar a imagem em modo interativo e rodar os comandos das linguagens listados:
+
+```bash
+    sudo docker run -it <nome-da-imagem>
+```
+
+
 ## Linguagens e Execução
 
 Aqui estão as instruções para executar cada arquivo "index" em suas respectivas linguagens:
 
-## Brainfuck:
+### Brainfuck:
 
 Execute:
 ```bash
-bf index.bf
+    bf index.bf
 ```
 
-## C++:
+### C++:
 
 Compile o arquivo C++: g++ index.cpp -o program
 
 Execute:
 
 ```bash
-./program
+    ./program
 ```
 
-## Crystal:
+### Crystal:
 
 ```bash
-crystal run index.cr
+    crystal run index.cr
 ```
 
-## C#:
+### C#:
 
 ```bash
-dotnet run --project index.csproj
+    dotnet run --project index.csproj
 ```
 
-## CSS:
+### CSS:
 
 O arquivo index.css é um arquivo de estilo e não precisa ser executado.
 
-## Dart:
+### Dart:
 
 ```bash
-dart index.dart
+    dart index.dart
 ```
 
-## Erlang:
+### Erlang:
 
 ```bash
-escript index.erl
+    escript index.erl
 ```
 
-## F#:
+### F#:
 
 ```bash
-dotnet run --project index.fsproj
+    dotnet run --project index.fsproj
 ```
 
-## Go:
+### Go:
 
 ```bash
-go run index.go
+    go run index.go
 ```
 
-## Groovy:
+### Groovy:
 
 ```bash
-groovy index.groovy
+    groovy index.groovy
 ```
 
-## Haskell:
+### Haskell:
 
 Compile o arquivo Haskell: ghc index.hs -o program
 
 Execute:
 
 ```bash
-./program
+    ./program
 ```
 
-## HTML:
+### HTML:
 
 Abra o arquivo index.html em um navegador web.
 
-## Java:
+### Java:
 
 Compile o arquivo Java: javac index.java
 
 Execute:
 ```bash
-java index
+    java index
 ```
 
-## Julia:
+### Julia:
 
 ```bash
-julia index.jl
+    julia index.jl
 ```
 
-## JavaScript:
+### JavaScript:
 
 ```bash
-node index.js
+    node index.js
 ```
 
-## Kotlin:
+### Kotlin:
 
 Compile o arquivo Kotlin: kotlinc index.kt -include-runtime -d program.jar
 
 Execute:
 
 ```bash
-java -jar program.jar
+    java -jar program.jar
 ```
 
-## Lua:
+### Lua:
 
 ```bash
-lua index.lua
+    lua index.lua
 ```
 
-## MATLAB:
+### MATLAB:
 
 ```bash
-run index.m
+    run index.m
 ```
 
-## PHP:
+### PHP:
 
 ```bash
-php index.php
+    php index.php
 ```
 
-## Perl:
+### Perl:
 
 ```bash
-perl index.pl
+    perl index.pl
 ```
 
-## PowerShell:
+### PowerShell:
 
 ```bash
-powershell -File index.ps1
+    powershell -File index.ps1
 ```
 
-## Python:
+### Python:
 
 ```bash
-python index.py
+    python index.py
 ```
 
-## R:
+### R:
 
 ```bash
-Rscript index.R
+    Rscript index.R
 ```
 
-## Ruby:
+### Ruby:
 
 ```bash
-ruby index.rb
+    ruby index.rb
 ```
 
-## Rust:
+### Rust:
 
 Compile o arquivo Rust: rustc index.rs -o program
 
 Execute:
 
 ```bash
-./program
+    ./program
 ```
 
-## Scala:
+### Scala:
 
 ```bash
-scala index.scala
+    scala index.scala
 ```
 
-## Shell Script:
+### Shell Script:
 
 ```bash
-sh index.sh
+    sh index.sh
 ```
 
-## Swift:
+### Swift:
 
 Compile o arquivo Swift: swiftc index.swift
 
 Execute:
 
 ```bash
-./index
+    ./index
 ```
 
-## TypeScript:
+### TypeScript:
 
 Compile o arquivo TypeScript: tsc index.ts
 
 Execute: 
 
 ```bash
-node index.js
+    node index.js
 ```
 
-## VB.NET:
+### VB.NET:
 
 ```bash
-dotnet run --project index.vbproj
+    dotnet run --project index.vbproj
 ```
 
 # Contribuição
